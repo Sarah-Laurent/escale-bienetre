@@ -1,0 +1,18 @@
+.intro {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding: 1rem; */
+  width: 100%;
+}
+.homePict {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10;
+}
+.homeText {
+  width: 90vw;
+  max-width: 1024px;
+}
