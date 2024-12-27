@@ -619,7 +619,7 @@ export default function Mentions() {
           l’une des parties, tous les litiges auxquels les Conditions Générales
           pourraient donner lieu, concernant tant leur validité, interprétation,
           exécution, résiliation, leurs conséquences et leurs suites, seront
-          soumis au tribunal de [VILLE].
+          soumis au tribunal de Chambéry.
         </p>
         <h5>Article 22 - DROIT APPLICABLE & LANGUE DU CONTRAT</h5>
         <p>

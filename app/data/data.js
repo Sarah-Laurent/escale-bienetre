@@ -403,10 +403,13 @@ export const aboutData = {
   description: `Sarah Laurent, praticienne certifiée en massage bien-être, vous accueille chaleureusement sur son site. Avec plus de 20 ans d'expérience dans le domaine de la santé, elle propose des massages relaxants, apaisants et dynamisants à son domicile à Bassens et en institut à Chambéry, en Savoie.
     Découvrez son espace cocooning et profitez de son savoir-faire et de son écoute bienveillante pour une véritable escale bien-être.`,
   info: `Séances sur rendez-vous
-  du Lundi au Samedi de 9h à 18h.
+  du lundi au samedi de 9h à 18h.
 
 À mon domicile : 53 rue Simone Veil 73000 Bassens.
+Parking a proximité gratuit, accès bus ligne chrono  D (arrêt Gonrat)
+
 Ou en institut au : 4 Rue des Trois Dauphins, 73000 Chambéry
+Parking gratuit devant l'institut, accès bus ligne chrono A et D (arrêt Centre hospitalier ou Buet)
 
 Pour prendre RDV, par téléphone :
 

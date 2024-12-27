@@ -21,7 +21,7 @@ export default function Footer() {
           />
         </div>
         <div>
-          <p>Du Lundi au Samedi de 9h à 18h</p>
+          <p>Du lundi au samedi de 9h à 18h</p>
           <address>
             <a
               target="_blank"
