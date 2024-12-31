@@ -76,6 +76,11 @@
   display: flex;
   gap: 1rem;
 }
+@media only screen and (max-width: 320px) {
+  .span2 {
+    font-size: 1.5rem;
+  }
+}
 @media only screen and (max-width: 900px) {
   .navmenu {
     position: fixed;
