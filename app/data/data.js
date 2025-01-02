@@ -409,7 +409,7 @@ export const aboutData = {
 Parking a proximité gratuit, accès bus ligne chrono  D (arrêt Gonrat)
 
 Ou en institut au : 4 Rue des Trois Dauphins, 73000 Chambéry
-Parking gratuit devant l'institut, accès bus ligne chrono A et D (arrêt Centre Hôpital Marché ou Buet)
+Parking gratuit devant l'institut, accès bus ligne chrono A et D (arrêt Hôpital Maché ou Buet)
 
 Pour prendre RDV, par téléphone :
 
