@@ -36,20 +36,6 @@ export default function Footer() {
               53 rue Simone Veil 73000 Bassens
             </a>
           </address>
-          <address>
-            <a
-              target="_blank"
-              href="https://www.google.fr/maps/place/Institut+de+beaut%C3%A9,+4+Rue+des+3+Dauphins,+73000+Chamb%C3%A9ry/@45.5656687,5.9048869,17z/data=!3m1!4b1!4m6!3m5!1s0x478ba8520e305529:0x6f9aeb00cc98c1bb!8m2!3d45.5656687!4d5.9074618!16s%2Fg%2F11c23j0p7v?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
-            >
-              <Image
-                src={"/pictoGps.png"}
-                width={16}
-                height={16}
-                alt="picto gps"
-              />{" "}
-              4 Rue des Trois Dauphins, 73000 Chambéry
-            </a>
-          </address>
         </div>
         <div className={styles.socialsLogo}>
           <Link href="mailto:laurentsarahpro14@gmail.com">
