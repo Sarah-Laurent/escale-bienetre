@@ -379,7 +379,7 @@ export const pricesData = [
       {
         massageId: 4,
         name: "Réflexologie Plantaire Réflexologie Palmaire",
-        price: ["50 min - 55€", "Forfait 3 séances 125€"],
+        price: ["50 min - 55€", "Forfait 3 séances 135€"],
       },
       {
         massageId: 4,
