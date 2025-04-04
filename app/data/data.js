@@ -5,9 +5,9 @@ export const homeData = {
       src: "/homePicture.webp",
     },
     title: "Pause douceur et sérénité...",
-    subTitle: "En Savoie",
+    subTitle: "à Bassens - Savoie",
     description:
-      "Une bulle de bien-être, un bonheur intense, un moment à soi de relaxation profonde et de lâcher-prise venez découvrir les bienfaits du massages entre mes mains douces et bienveillantes",
+      "Une bulle de bien-être, un bonheur intense, un moment à soi de relaxation profonde et de lâcher-prise venez découvrir les bienfaits du massages entre mes mains douces et bienveillantes.",
   },
   benefits: {
     title: "Les Prestations",
@@ -77,7 +77,7 @@ export const benefitsData = {
           src: "/massage-minceur.webp",
         },
         description:
-          "Relaxation, amincissement et bien-être général, le massage minceur procure un instant paisible et de sérénité.Doux et profond à la fois, il booste le métabolisme, active la circulation du sang et de la lymphe, les tissus s'assouplissent.Donne une sensations de légèreté immédiate et contribut à une meilleure gestion du poid.Le corps se purifie, s'affine, retrouve une peau plus lisse et lumineuse.",
+          "Relaxation, amincissement et bien-être général. Le massage minceur procure un instant paisible et de sérénité. Doux et profond à la fois, il booste le métabolisme, active la circulation du sang et de la lymphe, les tissus s'assouplissent. Donne une sensations de légèreté immédiate et contribut à une meilleure gestion du poid. Le corps se purifie, s'affine, retrouve une peau plus lisse et lumineuse.",
       },
       {
         id: 3,
@@ -94,7 +94,7 @@ export const benefitsData = {
         id: 4,
         title: "Massage Énergétique",
         intro:
-          "Réflexologie plantaire - Réflexologie palmaire - Tui Na minceur - Shiatsu.",
+          "Réflexologie plantaire - Réflexologie palmaire - Réflexologie Crânio-Fasciale - Shiatsu.",
         picture: {
           url: "https://www.freepik.com/free-photo/young-woman-relaxing-spa-salon_8224720.htm",
           src: "/massage-energetique.webp",
@@ -290,15 +290,14 @@ export const benefitsData = {
       environment: "massage énergétique",
       massageId: 4,
       title: "Réflexologie Crânio-Fasciale",
-      intro:
-        "Moment de bien-être sensoriel apaisant, calmant de détente profonde.",
+      intro: "Moment de bien-être sensoriel apaisant, de détente profonde.",
       picture: {
         url: "",
         src: "/cranio.webp",
       },
 
       description:
-        "La Réflexologie Crânio-Faciale a pour action de réduire le stress, apaiser des troubles, des douleurs du corps grâce à la stimulation des terminaisons nerveuses et des points réflexes du visage et du cuir chevelu. Elle aide également à améliorer la bonne circulation du sang et retrouver un teint lumineux.",
+        "Agissant par la stimulation des terminaisons nerveuses et des points réflexes situés sur le visage et le cuir chevelu, la Réflexologie Crânio-Faciale vise à diminuer le stress et à soulager les douleurs et troubles corporels. Cette technique favorise en outre la circulation sanguine, ce qui se traduire par un teint plus éclatant.",
       prices: { firstPrice: "1h - 70€", secondPrice: "Forfait 3 séances 180€" },
     },
 
