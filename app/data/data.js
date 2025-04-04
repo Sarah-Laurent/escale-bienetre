@@ -69,6 +69,17 @@ export const benefitsData = {
           Vivre vos 5 sens à travers un massage vous éveille, vous apporte un instant magique et mémorable!`,
       },
       {
+        id: 5,
+        title: "Massage Minceur",
+        intro: " Tui Na minceur - Massage drainant détox.",
+        picture: {
+          url: "",
+          src: "/massage-minceur.webp",
+        },
+        description:
+          "Relaxation, amincissement et bien-être général, le massage minceur procure un instant paisible et de sérénité.Doux et profond à la fois, il booste le métabolisme, active la circulation du sang et de la lymphe, les tissus s'assouplissent.Donne une sensations de légèreté immédiate et contribut à une meilleure gestion du poid.Le corps se purifie, s'affine, retrouve une peau plus lisse et lumineuse.",
+      },
+      {
         id: 3,
         title: "Massage découverte",
         intro: "Instant pour soi - Modelage  liftant visage & buste.",
@@ -83,7 +94,7 @@ export const benefitsData = {
         id: 4,
         title: "Massage Énergétique",
         intro:
-          "Réflexologie plantaire - Réflexologie palmaire - Tui Na minceur - Shiatsu - Amma Assi.",
+          "Réflexologie plantaire - Réflexologie palmaire - Tui Na minceur - Shiatsu.",
         picture: {
           url: "https://www.freepik.com/free-photo/young-woman-relaxing-spa-salon_8224720.htm",
           src: "/massage-energetique.webp",
@@ -278,17 +289,19 @@ export const benefitsData = {
     {
       environment: "massage énergétique",
       massageId: 4,
-      title: "Massage Tui Na minceur",
-      intro: "Moment de légèreté, de relaxation et de confiance en soi.",
+      title: "Réflexologie Crânio-Fasciale",
+      intro:
+        "Moment de bien-être sensoriel apaisant, calmant de détente profonde.",
       picture: {
-        url: "https://www.freepik.com/free-photo/close-up-hand-holding-cup_12066690.htm#fromView=search&page=1&position=8&uuid=f6fc2b43-3c6a-4505-a7b1-606b51835e13",
-        src: "/minceur.webp",
+        url: "",
+        src: "/cranio.webp",
       },
 
       description:
-        "Issu de la médecine traditionnelle chinoise, ce massage minceur est pratiqué à l'aide de ventouse, d'un petit rouleau et par divers mouvements bien précis sur de nombreux points d'acupressions. Cette méthode naturelle agit sur les tissus sous cutanés et les amas graisseux. Il aidera à retrouver un corps léger.",
+        "La Réflexologie Crânio-Faciale a pour action de réduire le stress, apaiser des troubles, des douleurs du corps grâce à la stimulation des terminaisons nerveuses et des points réflexes du visage et du cuir chevelu. Elle aide également à améliorer la bonne circulation du sang et retrouver un teint lumineux.",
       prices: { firstPrice: "1h - 70€", secondPrice: "Forfait 3 séances 180€" },
     },
+
     {
       environment: "massage énergétique",
       massageId: 4,
@@ -303,20 +316,34 @@ export const benefitsData = {
         "Cette pratique de massothérapie d'origine japonaise, utilisant des pressions des étirements des légères mobilisations, permet de libérer les tensions, les raideurs musculaires, réduire l'inconfort. Retrouver une énergie, de la tonicité et de la vitalité dans l'ensemble du corps.",
       prices: { firstPrice: "1h - 60€", secondPrice: "Forfait 3 séances 150€" },
     },
+    // Massage Minceur
     {
-      environment: "massage énergétique",
-      massageId: 4,
-      title: "Massage Amma Assi",
-      intro:
-        "Moment de décontraction et de libérations du stress du quotidien.",
+      environment: "massage Minceur",
+      massageId: 5,
+      title: "Massage Tui Na minceur",
+      intro: "Moment de légèreté, de relaxation et de confiance en soi.",
       picture: {
-        url: "https://www.freepik.com/free-photo/side-view-hands-massaging-woman-s-back_26412513.htm#fromView=search&page=1&position=0&uuid=ea2a7aae-09a3-4abf-a97c-0531a776c65c",
-        src: "/amma.webp",
+        url: "https://www.freepik.com/free-photo/close-up-hand-holding-cup_12066690.htm#fromView=search&page=1&position=8&uuid=f6fc2b43-3c6a-4505-a7b1-606b51835e13",
+        src: "/minceur.webp",
       },
 
       description:
-        "Ce massage dynamisant et énergisant s'effectue à l'aide d'étirements de pressions de balayage, il calme et soulage les tensions musculaires et procure un bien-être et une profonde détente dans votre travail et vie de tous les jours.",
-      prices: { firstPrice: "30 min - 40€", secondPrice: "" },
+        "Issu de la médecine traditionnelle chinoise, ce massage minceur est pratiqué à l'aide de ventouse, d'un petit rouleau et par divers mouvements bien précis sur de nombreux points d'acupressions. Cette méthode naturelle agit sur les tissus sous cutanés et les amas graisseux. Il aidera à retrouver un corps léger.",
+      prices: { firstPrice: "1h - 70€", secondPrice: "Forfait 3 séances 180€" },
+    },
+    {
+      environment: "massage Minceur",
+      massageId: 5,
+      title: "Massage Drainant Détox Minceur",
+      intro: "Moment de fraîcheur, de vitalité, de tonicité et de bien-être.",
+      picture: {
+        url: "",
+        src: "/detox.webp",
+      },
+
+      description:
+        "Ce massage drainant  détox est une pratique manuelle accompagné de mouvements doux et précis qui consiste à redynamiser, de relancer la circulation sanguine et lymphatique. Il vous procure un instant de fraîcheur, dynamisant et de légèreté. Votre silhouette est affinée et votre peau  est plus lisse, douce et soyeuse.",
+      prices: { firstPrice: "1h - 70€", secondPrice: "Forfait 3 séances 180€" },
     },
   ],
 }
@@ -381,9 +408,10 @@ export const pricesData = [
         name: "Réflexologie Plantaire Réflexologie Palmaire",
         price: ["50 min - 55€", "Forfait 3 séances 135€"],
       },
+
       {
         massageId: 4,
-        name: "Tui Na minceur",
+        name: "Réflexologie Crânio-Fasciale",
         price: ["1h - 70€", "Forfait 3 séances 180€"],
       },
       {
@@ -391,7 +419,16 @@ export const pricesData = [
         name: "Shiatsu",
         price: ["1h - 60€", "Forfait 3 séances 150€"],
       },
-      { massageId: 4, name: "Amma Assi", price: ["30 min - 40€"] },
+    ],
+  },
+  {
+    title: "Massage Minceur",
+    massages: [
+      {
+        massageId: 5,
+        name: "Tui Na minceur - Réflexologie Crânio-Fasciale",
+        price: ["1h - 70€", "Forfait 3 séances 180€"],
+      },
     ],
   },
 ]
@@ -400,8 +437,9 @@ export const aboutData = {
   title: `À propos de 
   Escale Bien-être Massage`,
   picture: "/portrait.webp",
-  description: `Sarah Laurent, praticienne certifiée en massage bien-être, vous accueille chaleureusement sur son site. Avec plus de 20 ans d'expérience dans le domaine de la santé, elle propose des massages relaxants, apaisants et dynamisants à son domicile à Bassens, en Savoie.
-Découvrez son espace cocooning et profitez de son savoir-faire et de son écoute bienveillante pour une véritable escale bien-être.`,
+  description: `Sarah Laurent, praticienne certifiée en massage bien-être et réflexologie, vous accueille chaleureusement sur mon site. Avec plus de 20 ans d'expérience dans le domaine de la santé, je vous propose des massages relaxants, apaisants, dynamisants et énergisants à mon domicile à Bassens, en Savoie. 
+L'été vous profiterez d'une pièce climatisée.
+Je vous invite à venir découvrir mon espace cocooning, de profiter de mon savoir-faire et de mon écoute bienveillante pour une véritable escale bien-être.`,
   info: `Séances sur rendez-vous
   du lundi au samedi de 9h à 19h.
 
