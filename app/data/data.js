@@ -298,7 +298,10 @@ export const benefitsData = {
 
       description:
         "Agissant par la stimulation des terminaisons nerveuses et des points réflexes situés sur le visage et le cuir chevelu, la Réflexologie Crânio-Faciale vise à diminuer le stress et à soulager les douleurs et troubles corporels. Cette technique favorise en outre la circulation sanguine, ce qui se traduire par un teint plus éclatant.",
-      prices: { firstPrice: "1h - 70€", secondPrice: "Forfait 3 séances 180€" },
+      prices: {
+        firstPrice: "50 min - 55€",
+        secondPrice: "Forfait 3 séances 125€",
+      },
     },
 
     {
@@ -320,7 +323,7 @@ export const benefitsData = {
       environment: "massage Minceur",
       massageId: 5,
       title: "Massage Tui Na minceur",
-      intro: "Moment de légèreté, de relaxation et de confiance en soi.",
+      intro: "Moment relaxant, de légèreté et de confiance en soi.",
       picture: {
         url: "https://www.freepik.com/free-photo/close-up-hand-holding-cup_12066690.htm#fromView=search&page=1&position=8&uuid=f6fc2b43-3c6a-4505-a7b1-606b51835e13",
         src: "/minceur.webp",
@@ -334,14 +337,14 @@ export const benefitsData = {
       environment: "massage Minceur",
       massageId: 5,
       title: "Massage Drainant Détox Minceur",
-      intro: "Moment de fraîcheur, de vitalité, de tonicité et de bien-être.",
+      intro: "Moment de fraîcheur, de vitalité et de bien-être.",
       picture: {
         url: "",
         src: "/detox.webp",
       },
 
       description:
-        "Ce massage drainant  détox est une pratique manuelle accompagné de mouvements doux et précis qui consiste à redynamiser, de relancer la circulation sanguine et lymphatique. Il vous procure un instant de fraîcheur, dynamisant et de légèreté. Votre silhouette est affinée et votre peau  est plus lisse, douce et soyeuse.",
+        "Ce massage drainant détox est une pratique manuelle accompagné de mouvements doux et précis qui consiste à redynamiser et à relancer la circulation sanguine et lymphatique. Il vous procure un instant de fraîcheur, dynamisant et de légèreté. Votre silhouette est affinée et votre peau est plus lisse, douce et soyeuse.",
       prices: { firstPrice: "1h - 70€", secondPrice: "Forfait 3 séances 180€" },
     },
   ],
@@ -390,6 +393,16 @@ export const pricesData = [
     ],
   },
   {
+    title: "Massage Minceur",
+    massages: [
+      {
+        massageId: 5,
+        name: "Tui Na minceur - Massage Drainant Détox Minceur",
+        price: ["1h - 70€", "Forfait 3 séances 180€"],
+      },
+    ],
+  },
+  {
     title: "Massage découverte",
     massages: [
       {
@@ -404,29 +417,14 @@ export const pricesData = [
     massages: [
       {
         massageId: 4,
-        name: "Réflexologie Plantaire Réflexologie Palmaire",
+        name: "Réflexologie Plantaire, Palmaire, Crânio-Fasciale",
         price: ["50 min - 55€", "Forfait 3 séances 135€"],
       },
 
       {
         massageId: 4,
-        name: "Réflexologie Crânio-Fasciale",
-        price: ["1h - 70€", "Forfait 3 séances 180€"],
-      },
-      {
-        massageId: 4,
         name: "Shiatsu",
         price: ["1h - 60€", "Forfait 3 séances 150€"],
-      },
-    ],
-  },
-  {
-    title: "Massage Minceur",
-    massages: [
-      {
-        massageId: 5,
-        name: "Tui Na minceur - Réflexologie Crânio-Fasciale",
-        price: ["1h - 70€", "Forfait 3 séances 180€"],
       },
     ],
   },
