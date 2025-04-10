@@ -344,7 +344,7 @@ export const benefitsData = {
       },
 
       description:
-        "Ce massage drainant détox est une pratique manuelle accompagné de mouvements doux et précis qui consiste à redynamiser et à relancer la circulation sanguine et lymphatique. Il vous procure un instant de fraîcheur, dynamisant et de légèreté. Votre silhouette est affinée et votre peau est plus lisse, douce et soyeuse.",
+        "Ce massage drainant détox est une pratique manuelle accompagné de mouvements doux et précis qui redynamise et relance la circulation sanguine et lymphatique. Il vous procure un instant de fraîcheur, dynamisant et de légèreté. Votre silhouette est affinée et votre peau est plus lisse, douce et soyeuse.",
       prices: { firstPrice: "1h - 70€", secondPrice: "Forfait 3 séances 180€" },
     },
   ],
