@@ -363,14 +363,14 @@ export const benefitsData = {
       environment: "Massage au Feeling & Remise en forme",
       massageId: 6,
       title: "Massage Personalisé",
-      intro: "Un moment relaxant créé par vous pour vous.",
+      intro: "Un moment régénérant, de relaxation et de remise en forme.",
       picture: {
         url: "https://fr.freepik.com/images-ia-gratuites/fleur-lotus-rose-feuille-verte-au-milieu_39942795.htm#fromView=search&page=1&position=3&uuid=896e4f9a-4553-4710-8901-012123bb2c8e&query=a+pink+lotus+flower",
         src: "/lotus.webp",
       },
 
       description:
-        "Un moment régénérant, de relaxation et de remise en forme. Une expérience relaxante et à la fois énergétique, un massage, un soin 100% personnalisé! Entre massage bien-être et réflexologie, nous trouverons ensemble, lors d'un bilan en début de séance, ce qui correspond le mieux à vos besoins, à vos attentes. Retrouvez votre vitalité!",
+        "Une expérience relaxante et à la fois énergétique, un massage, un soin 100% personnalisé! Entre massage bien-être et réflexologie, nous trouverons ensemble, lors d'un bilan en début de séance, ce qui correspond le mieux à vos besoins, à vos attentes. Retrouvez votre vitalité!",
       prices: { firstPrice: "1h15 - 80€", secondPrice: "1h45 - 100€" },
     },
   ],
