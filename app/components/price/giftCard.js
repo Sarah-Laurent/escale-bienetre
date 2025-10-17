@@ -13,7 +13,7 @@ export default function GiftCard() {
             href={
               "https://www.planity.com/escale-bien-etre-massage-73000-chambery"
             }
-            text={"Aussi disponible sur Planity"}
+            text={"Disponible sur Planity"}
           />
      
       <div className={styles.giftCardPicture}>
