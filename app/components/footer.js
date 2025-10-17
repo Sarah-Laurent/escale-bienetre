@@ -33,7 +33,7 @@ export default function Footer() {
                 height={16}
                 alt="picto gps"
               />{" "}
-              53 rue Simone Veil 73000 Bassens
+              Novassens, Rue des Écoles 73000 Bassens
             </a>
           </address>
         </div>
