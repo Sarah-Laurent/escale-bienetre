@@ -36,6 +36,20 @@ export default function Footer() {
               Novassens, Rue des Écoles 73000 Bassens
             </a>
           </address>
+                <address>
+            <a
+              target="_blank"
+              href="https://www.google.fr/maps/place/53+Rue+Simone+Veil,+73000+Bassens/@45.5749231,5.9364268,17z/data=!3m1!4b1!4m6!3m5!1s0x478ba8ea3268d50f:0x3abeb2cb1c1eb9d1!8m2!3d45.5749231!4d5.9390071!16s%2Fg%2F11srrn0_jk?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+            >
+              <Image
+                src={"/pictoGps.png"}
+                width={16}
+                height={16}
+                alt="picto gps"
+              />{" "}
+              53 Rue Simone Veil, 73000 Bassens
+            </a>
+          </address>
         </div>
         <div className={styles.socialsLogo}>
           <Link href="mailto:laurentsarahpro14@gmail.com">
