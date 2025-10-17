@@ -441,5 +441,7 @@ Je vous invite à venir découvrir mon espace cocooning, de profiter de mon savo
   du lundi au samedi de 9h à 19h.
 
 À mon cabinet: Novassens, 6 Rue des Écoles 73000 Bassens (Accès ascenseur 3ême étage)
+À mon domicile: 53 Rue Simone Veil, 73000 Bassens.
+
 Parking à proximité gratuit, accès bus ligne chrono  D (arrêt Gonrat)`,
 }
