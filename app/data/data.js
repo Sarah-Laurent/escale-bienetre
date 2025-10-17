@@ -68,6 +68,17 @@ export const benefitsData = {
         description: `Le corps et l'esprit perçoit la chaleur, la pression, la couleur, le son et l'odeur.
           Vivre vos 5 sens à travers un massage vous éveille, vous apporte un instant magique et mémorable!`,
       },
+            {
+        id: 6,
+        title: "Massage au Feeling & Remise en forme",
+        intro:
+          "Instant Personnalisé",
+        picture: {
+          url: "https://fr.freepik.com/photos-gratuite/salle-classe-espace-etude-virtuels_20505470.htm#fromView=search&page=1&position=8&uuid=80f01d18-b350-4827-9a03-dbdce349767f&query=prise+de+note",
+          src: "/paper.webp",
+        },
+        description: `Un moment relaxant créé par vous pour vous.`,
+      },
       {
         id: 5,
         title: "Massage Minceur",
@@ -94,7 +105,7 @@ export const benefitsData = {
         id: 4,
         title: "Massage Énergétique",
         intro:
-          "Réflexologie plantaire - Réflexologie palmaire - Réflexologie Crânio-Fasciale - Shiatsu.",
+          "Réflexologie plantaire - Réflexologie palmaire - Réflexologie crânio-fasciale - Shiatsu.",
         picture: {
           url: "https://www.freepik.com/free-photo/young-woman-relaxing-spa-salon_8224720.htm",
           src: "/massage-energetique.webp",
@@ -109,7 +120,7 @@ export const benefitsData = {
     {
       environment: "massage du monde",
       massageId: 1,
-      title: "Massage californien",
+      title: "Massage Californien",
       intro: "Moment de détente intense relaxant et apaisant.",
       picture: {
         url: "https://www.freepik.com/free-photo/beauty-spa_10788395.htm#fromView=search&page=1&position=42&uuid=116ea015-5270-4abc-96b2-7b8997f46257",
@@ -225,7 +236,7 @@ export const benefitsData = {
     {
       environment: "Massage Découverte & Détente musculaire",
       massageId: 3,
-      title: "Massage instant pour soi",
+      title: "Massage Instant Pour Soi",
       intro:
         "Moment de détente sur la zone précieuse du corps de votre choix (dos, cou, épaule, jambe, pied, bras...).",
       picture: {
@@ -240,7 +251,7 @@ export const benefitsData = {
     {
       environment: "Massage Découverte & Détente musculaire",
       massageId: 3,
-      title: "Modelage liftant visage & buste",
+      title: "Modelage Liftant Visage & Buste",
       intro: "Une parenthèse de douceur, les yeux fermés...",
       picture: {
         url: "https://www.freepik.com/free-photo/close-up-hand-massaging-cheeks_12892500.htm#fromView=search&page=4&position=9&uuid=5f441877-1fc4-463f-b9f6-2d2627f97838",
@@ -307,7 +318,7 @@ export const benefitsData = {
     {
       environment: "massage énergétique",
       massageId: 4,
-      title: "Le shiatsu",
+      title: "Le Shiatsu",
       intro: "Moment de relâchement, de vitalité et de détente.",
       picture: {
         url: "https://www.freepik.com/free-photo/young-woman-relaxing-spa-salon_8224724.htm#fromView=search&page=1&position=34&uuid=51ad8ac2-3b92-4f04-a62a-b3fde5875a85",
@@ -322,7 +333,7 @@ export const benefitsData = {
     {
       environment: "massage Minceur",
       massageId: 5,
-      title: "Massage Tui Na minceur",
+      title: "Massage Tui Na Minceur",
       intro: "Moment relaxant, de légèreté et de confiance en soi.",
       picture: {
         url: "https://www.freepik.com/free-photo/close-up-hand-holding-cup_12066690.htm#fromView=search&page=1&position=8&uuid=f6fc2b43-3c6a-4505-a7b1-606b51835e13",
@@ -346,6 +357,21 @@ export const benefitsData = {
       description:
         "Ce massage drainant détox est une pratique manuelle accompagné de mouvements doux et précis qui redynamise et relance la circulation sanguine et lymphatique. Il vous procure un instant de fraîcheur, dynamisant et de légèreté. Votre silhouette est affinée et votre peau est plus lisse, douce et soyeuse.",
       prices: { firstPrice: "1h - 70€", secondPrice: "Forfait 3 séances 180€" },
+    },
+    // Massage au Feeling & Remise en forme
+    {
+      environment: "Massage au Feeling & Remise en forme",
+      massageId: 6,
+      title: "Massage Personalisé",
+      intro: "Un moment relaxant créé par vous pour vous.",
+      picture: {
+        url: "https://fr.freepik.com/images-ia-gratuites/fleur-lotus-rose-feuille-verte-au-milieu_39942795.htm#fromView=search&page=1&position=3&uuid=896e4f9a-4553-4710-8901-012123bb2c8e&query=a+pink+lotus+flower",
+        src: "/lotus.webp",
+      },
+
+      description:
+        "Un moment régénérant, de relaxation et de remise en forme. Une expérience relaxante et à la fois énergétique, un massage, un soin 100% personnalisé! Entre massage bien-être et réflexologie, nous trouverons ensemble, lors d'un bilan en début de séance, ce qui correspond le mieux à vos besoins, à vos attentes.Une séance spécialement conçue et adaptée pour vous, confectionnée par mes soins, mon écoute et mes connaissances. Retrouvez votre vitalité!",
+      prices: { firstPrice: "1h15 - 80€", secondPrice: "1h45 - 100€" },
     },
   ],
 }
@@ -392,6 +418,16 @@ export const pricesData = [
       },
     ],
   },
+    {
+    title: "Massage au Feeling & Remise en forme",
+    massages: [
+      {
+        massageId: 6,
+        name: "Massage Personnalisé",
+        price: ["1h15min - 80€",, "1h45min - 100€",],
+      },
+    ],
+  },
   {
     title: "Massage Minceur",
     massages: [
@@ -408,7 +444,7 @@ export const pricesData = [
       {
         massageId: 3,
         name: "Instant pour soi Modelage liftant visage & buste",
-        price: ["Forfait 3 séances 30 min 100€", "Forfait 3 séances 1h 150€"],
+        price: ["30min - 40€","Forfait 3 séances 30 min 100€", "1h - 60€","Forfait 3 séances 1h 150€"],
       },
     ],
   },
