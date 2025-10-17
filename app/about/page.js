@@ -29,7 +29,7 @@ export default function About() {
             href={
               "https://www.planity.com/escale-bien-etre-massage-73000-chambery"
             }
-            text={"rdv & Offrir"}
+            text={"RDV & OFFRIR"}
           />
         </div>
         <p>ou</p>
