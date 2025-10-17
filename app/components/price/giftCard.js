@@ -7,6 +7,7 @@ export default function GiftCard() {
     <div className={styles.giftCard}>
       <h4>{title}</h4>
       <p>{description}</p>
+     <a href="https://www.planity.com/escale-bien-etre-massage-73000-chambery"> Aussi disponible sur Planity.</a>.
       <div className={styles.giftCardPicture}>
         <Image src={picture.src} alt="carte cadeau" fill />
       </div>
