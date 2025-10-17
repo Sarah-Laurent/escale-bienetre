@@ -81,7 +81,7 @@ export const benefitsData = {
       },
       {
         id: 3,
-        title: "Massage découverte",
+        title: "Massage Découverte & Détente musculaire",
         intro: "Instant pour soi - Modelage  liftant visage & buste.",
         picture: {
           url: "https://www.freepik.com/free-photo/young-woman-relax-luxury-spa_5953915.htm",
@@ -223,7 +223,7 @@ export const benefitsData = {
     },
     // massage decouverte
     {
-      environment: "massage découverte",
+      environment: "Massage Découverte & Détente musculaire",
       massageId: 3,
       title: "Massage instant pour soi",
       intro:
@@ -238,7 +238,7 @@ export const benefitsData = {
       prices: { firstPrice: "30 min - 40€", secondPrice: "1h - 60€" },
     },
     {
-      environment: "massage découverte",
+      environment: "Massage Découverte & Détente musculaire",
       massageId: 3,
       title: "Modelage liftant visage & buste",
       intro: "Une parenthèse de douceur, les yeux fermés...",
@@ -403,12 +403,12 @@ export const pricesData = [
     ],
   },
   {
-    title: "Massage découverte",
+    title: "Massage Découverte & Détente musculaire",
     massages: [
       {
         massageId: 3,
         name: "Instant pour soi Modelage liftant visage & buste",
-        price: ["30 min - 40€", "1h - 60€"],
+        price: ["30 min - 40€","Forfait 3 séances 100€", "1h - 60€","Forfait 3 séances 150€"],
       },
     ],
   },
@@ -440,6 +440,6 @@ Je vous invite à venir découvrir mon espace cocooning, de profiter de mon savo
   info: `Séances sur rendez-vous
   du lundi au samedi de 9h à 19h.
 
-À mon domicile : 53 rue Simone Veil 73000 Bassens.
-Parking a proximité gratuit, accès bus ligne chrono  D (arrêt Gonrat)`,
+À mon cabinet: Novassens, Rue des Écoles 73000 Bassens (Accès ascenseur 3ême étage)
+Parking à proximité gratuit, accès bus ligne chrono  D (arrêt Gonrat)`,
 }
