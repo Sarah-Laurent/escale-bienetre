@@ -408,7 +408,7 @@ export const pricesData = [
       {
         massageId: 3,
         name: "Instant pour soi Modelage liftant visage & buste",
-        price: ["30 min - 40€","Forfait 3 séances 100€", "1h - 60€","Forfait 3 séances 150€"],
+        price: ["Forfait 3 séances 30 min 100€", "Forfait 3 séances 1h 150€"],
       },
     ],
   },
@@ -434,12 +434,12 @@ export const aboutData = {
   title: `À propos de 
   Escale Bien-être Massage`,
   picture: "/portrait.webp",
-  description: `Sarah Laurent, praticienne certifiée en massage bien-être et réflexologie, vous accueille chaleureusement sur mon site. Avec plus de 20 ans d'expérience dans le domaine de la santé, je vous propose des massages relaxants, apaisants, dynamisants et énergisants à mon domicile à Bassens, en Savoie. 
+  description: `Sarah Laurent, praticienne certifiée en massage bien-être et réflexologie, vous accueille chaleureusement sur mon site. Avec plus de 20 ans d'expérience dans le domaine de la santé, je vous propose des massages relaxants, apaisants, dynamisants et énergisants à Bassens, en Savoie. 
 L'été vous profiterez d'une pièce climatisée.
 Je vous invite à venir découvrir mon espace cocooning, de profiter de mon savoir-faire et de mon écoute bienveillante pour une véritable escale bien-être.`,
   info: `Séances sur rendez-vous
   du lundi au samedi de 9h à 19h.
 
-À mon cabinet: Novassens, Rue des Écoles 73000 Bassens (Accès ascenseur 3ême étage)
+À mon cabinet: Novassens, 6 Rue des Écoles 73000 Bassens (Accès ascenseur 3ême étage)
 Parking à proximité gratuit, accès bus ligne chrono  D (arrêt Gonrat)`,
 }
