@@ -29,12 +29,12 @@ export default function About() {
             href={
               "https://www.planity.com/escale-bien-etre-massage-73000-chambery"
             }
-            text={"Prendre rdv"}
+            text={"rdv & Offrir"}
           />
         </div>
         <p>ou</p>
         <div className={styles.block}>
-          <p> par téléphone : </p>
+          <p> Par téléphone : </p>
           <a href="tel:+33628770421">06.28.77.04.21</a>
         </div>
         <p>Vous pouvez également me contacter par mail.</p>
