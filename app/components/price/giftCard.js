@@ -1,13 +1,21 @@
 import { giftCarddata } from "@/app/data/data"
 import Image from "next/image"
 import styles from "./giftCard.module.css"
+import Buttons from "@/app/ui/buttons"
+
 export default function GiftCard() {
   const { title, intro, picture, description } = giftCarddata
   return (
     <div className={styles.giftCard}>
       <h4>{title}</h4>
       <p>{description}</p>
-     <a href="https://www.planity.com/escale-bien-etre-massage-73000-chambery"> Aussi disponible sur Planity.</a>.
+    <Buttons
+            href={
+              "https://www.planity.com/escale-bien-etre-massage-73000-chambery"
+            }
+            text={"Aussi disponible sur Planity"}
+          />
+     
       <div className={styles.giftCardPicture}>
         <Image src={picture.src} alt="carte cadeau" fill />
       </div>
