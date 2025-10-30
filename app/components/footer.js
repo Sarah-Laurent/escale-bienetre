@@ -33,7 +33,7 @@ export default function Footer() {
                 height={16}
                 alt="picto gps"
               />{" "}
-              Novassens, 6 Rue des Écoles 73000 Bassens
+              Novassens, 146 Rue des Écoles 73000 Bassens
             </a>
           </address>
                 <address>
