@@ -362,7 +362,7 @@ export const benefitsData = {
     {
       environment: "Massage au Feeling & Remise en forme",
       massageId: 6,
-      title: "Massage Personalisé",
+      title: "Instant Personnalisé",
       intro: "Un moment régénérant, de relaxation et de remise en forme.",
       picture: {
         url: "https://fr.freepik.com/images-ia-gratuites/fleur-lotus-rose-feuille-verte-au-milieu_39942795.htm#fromView=search&page=1&position=3&uuid=896e4f9a-4553-4710-8901-012123bb2c8e&query=a+pink+lotus+flower",
@@ -423,7 +423,7 @@ export const pricesData = [
     massages: [
       {
         massageId: 6,
-        name: "Massage Personnalisé",
+        name: "Instant Personnalisé",
         price: ["1h15min - 80€",, "1h45min - 100€",],
       },
     ],
@@ -476,7 +476,7 @@ Je vous invite à venir découvrir mon espace cocooning, de profiter de mon savo
   info: `Séances sur rendez-vous
   du lundi au samedi de 9h à 19h.
 
-À mon cabinet: Novassens, 6 Rue des Écoles 73000 Bassens (Accès ascenseur 3ême étage)
+À mon cabinet: Novassens, 146 Rue des Écoles 73000 Bassens (Accès ascenseur 3ême étage)
 À mon domicile: 53 Rue Simone Veil, 73000 Bassens.
 
 Parking à proximité gratuit, accès bus ligne chrono  D (arrêt Gonrat)`,
